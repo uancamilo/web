@@ -1,0 +1,34 @@
+
+.intro {
+    min-height: 70vh;
+    background-image: url(/img/capacitacion_seguridad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 70%;
+
+}
+
+.intro::before {
+    content: "";
+    width: 100%;
+    height: 70%;
+    min-height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(18,131,218,.85);
+    opacity: 0.85;
+
+
+}
+
+.TextIntro {
+    color: antiquewhite;
+    font-size: 3.5rem;
+    position: relative;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
