@@ -2,17 +2,16 @@
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
-
-}
-
-.linkWhatsapp {
     position: fixed;
-    border-radius: 50px;
     z-index: 1;
+    padding-top: 3rem;
+    width: 100%;
 
 }
 
-.imgWhatsapp {
-    border-radius: 50px;
+.iconWhatsapp {
+    height: 3.5rem;
+    width: 3.5rem;
+    color:rgb(37,211,102);
 
 }

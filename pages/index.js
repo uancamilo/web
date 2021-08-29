@@ -7,6 +7,7 @@ import Whatsapp from '../components/Whatsapp'
 // import styles from '../styles/Home.module.css'
 
 import Layout from '../components/Layout'
+import Skills from '../components/Skills'
 
 export default function Home() {
   return (
@@ -23,6 +24,8 @@ export default function Home() {
         <Whatsapp/>
 
         <Cards/>
+
+        <Skills/>
           
       </Layout>
   )

@@ -32,3 +32,19 @@
     padding-top: 1.5rem;
 }
 
+
+
+.TextIntroDos {
+    color: antiquewhite;
+    font-size: 1.5rem;
+    position: relative;
+    text-align: center;
+    padding-top: 1.5rem;
+    font-weight: lighter;
+}
+
+.FormularioIntro {
+    position: relative;
+
+}
+

@@ -1,6 +1,6 @@
 export default function Cards() {
     return (
-        <div className="container pt-5">
+        <div className="container py-5">
             <div className="row row-cols-1 row-cols-md-2 g-4">
                 <div className="col">
                     <div className="card">
