@@ -13,7 +13,7 @@ export default function Home() {
   return (
       <Layout>
         <Head>
-          <title>Juan Camilo Serna | Ventas por internet</title>
+          <title>Consultoría HSEQ | Seguridad y riesgos del trabajo</title>
           <meta name="description" content="Creador de contenido para la web" />
           <link rel="icon" href="/favicon.ico" />
 
