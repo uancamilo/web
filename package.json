@@ -1,11 +1,13 @@
 {
   "name": "web",
   "version": "0.1.0",
+  "main": "server.js",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "deploy": "cross-env NODE_ENV=production firebase deploy --only functions,hosting",
     "lint": "next lint"
   },
   "dependencies": {

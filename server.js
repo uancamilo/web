@@ -9,11 +9,9 @@ const server = next({
 })
 
 const nextjsHandle = server.getRequestHandler();
-//we will create our firebase function
-
-exports.nextServer2 = https.onRequest((req, res) => {
-    return server.prepare().
-        then(() => {
+exports.nextServer = https.onRequest((req, res) => {
+    return server.prepare()
+        .then(() => {
             return nextjsHandle(req, res)
-        })
-})
+        });
+});
