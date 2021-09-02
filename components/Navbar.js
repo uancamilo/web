@@ -37,7 +37,7 @@ export default function Navbar() {
                             <a className="nav-link" href="#">Blog</a>
                         </li>
                         <li className="nav-item text-dark ps-5">
-                            <Link href="/contacto">
+                            <Link href="/contacto" passHref>
                                 <button type="button" className="btn btn-outline-light">Contacto</button>                        
                             </Link>
                         </li>
